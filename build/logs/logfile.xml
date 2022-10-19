@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="4.173616">
+    <testsuite name="App" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="4.173616">
+      <testsuite name="EmailTest" file="C:\Users\s3rvantin\Documents\wp2\sekolah\tests\unit\EmailTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="4.173616">
+        <testcase name="testKirimEmail" class="EmailTest" classname="EmailTest" file="C:\Users\s3rvantin\Documents\wp2\sekolah\tests\unit\EmailTest.php" line="10" assertions="1" time="4.173616"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
