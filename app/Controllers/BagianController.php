@@ -24,4 +24,35 @@ class BagianController extends BaseController
         $r = (new BagianModel())->where('id',$id)->first();
         if($r == null)throw PageNotFoundException::forPageNotFound();
 }
+public function store(){
+    $pm = new BagianModel();
+
+    $id = $pm->insert([
+        'nama' =>$this->request->getVar('nama'),
+        'fungsi' =>$this->request->getVar('fungsi'),
+        'tugas_pokok' =>$this->request->getVar('tugas_pokok'),
+    ]);
+    return $this->response->setJSON(['id' => $id])
+                ->setStatusCode(intval($id) > 0 ? 200 : 406);
+}
+public function update(){
+    $pm = new BagianModel();
+    $id = (int)$this->request->getVar('id');
+
+    if($pm->find($id) == null)
+        throw PageNotFoundException::forPageNotFound();
+
+    $hasil = $pm ->update($id, [
+        'nama' => $this->request->getVar('nama'),
+        'fungsi' =>$this->request->getVar('fungsi'),
+        'tugas_pokok' =>$this->request->getVar('tugas_pokok'),
+    ]);
+    return $this->response->setJSON(['result' =>$hasil]);
+}
+public function delete(){
+    $pm = new BagianModel();
+    $id = $this->request->getVar('id');
+    $hasil = $pm->delete($id);
+    return $this->response->setJSON(['result' => $hasil]);
+}
 }
