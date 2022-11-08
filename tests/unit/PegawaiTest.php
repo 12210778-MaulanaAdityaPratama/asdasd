@@ -17,29 +17,29 @@ class PegawaiTest extends CIUnitTestCase{
 		])->assertStatus(200);
 	}
 	public function testCreateShowUpdateDelete(){
-		$json = $this->call('post','pegawai',[
-			'nip' => '12344',
-			'nama_depan' => 'fatimah',
-			'nama_belakang' => 'soim',
+		$json = $this->call('post','Pegawai',[
+			'nip' => '1321321',
+			'nama_depan' => 'asdasd',
+			'nama_belakang' => 'asd',
 			'gelar_depan' => 'ad',
 			'gelar_belakang' => 'asd',
 			'gender' => 'P',
-			'no_telpon' =>'085738706898',
-			'no_wa' => '086738917343',
-			'email' => 'fatimahsoim@gmail.com',
-			'bagian_id' => 1,
+			'no_telpon' =>'656756756',
+			'no_wa' => '56756765',
+			'email' => 'asd@gmail.com',
+			'bagian_id' => 2,
 			'alamat' => 'asdsa',
 			'kota' => 'sadas',
 			'tgl_lahir' => '1996-12-13',
 			'tempat_lahir' => 'sadad',
 			'foto' => 'sadsad',
 			'sandi' => '12345',
-			'token_reset' => '12321'		
+			'token_reset' => '21313'		
 		])->getJSON();
 		$js = json_decode($json, true);
 
 		$this->assertTrue($js['id']>0);
-		$this->call('get', "pegawai/".$js['id'])
+		$this->call('get', "Pegawai/".$js['id'])
 			 ->assertStatus(200);
 	}
 }

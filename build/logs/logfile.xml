@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="4.173616">
-    <testsuite name="App" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="4.173616">
-      <testsuite name="EmailTest" file="C:\Users\s3rvantin\Documents\wp2\sekolah\tests\unit\EmailTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="4.173616">
-        <testcase name="testKirimEmail" class="EmailTest" classname="EmailTest" file="C:\Users\s3rvantin\Documents\wp2\sekolah\tests\unit\EmailTest.php" line="10" assertions="1" time="4.173616"/>
+  <testsuite name="" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.132508">
+    <testsuite name="App" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.132508">
+      <testsuite name="PegawaiTest" file="C:\Users\s3rvantin\Documents\wp2\asdasd\tests\unit\PegawaiTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.132508">
+        <testcase name="testLogin" class="PegawaiTest" classname="PegawaiTest" file="C:\Users\s3rvantin\Documents\wp2\asdasd\tests\unit\PegawaiTest.php" line="13" assertions="1" time="0.078034"/>
+        <testcase name="testCreateShowUpdateDelete" class="PegawaiTest" classname="PegawaiTest" file="C:\Users\s3rvantin\Documents\wp2\asdasd\tests\unit\PegawaiTest.php" line="19" assertions="2" time="0.054475"/>
       </testsuite>
     </testsuite>
   </testsuite>
