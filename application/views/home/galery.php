@@ -9,26 +9,26 @@
                     <div class="row gx-5">
                         <div class="col-lg-6">
                             <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
+                                <img class="img-fluid rounded-3 mb-3" src="<?php echo base_url(); ?>galeri/2(1).jpeg" alt="..." />
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Foto Kegiatan</a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
+                            <img class="img-fluid rounded-3 mb-3" src="<?php echo base_url(); ?>galeri/3(1).jpeg" alt="..." />
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Foto Kegiatan</a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative mb-5 mb-lg-0">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
+                            <img class="img-fluid rounded-3 mb-3" src="<?php echo base_url(); ?>galeri/1(1).jpeg" alt="..." />
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Foto Kegiatan</a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
+                            <img class="img-fluid rounded-3 mb-3" src="<?php echo base_url(); ?>galeri/6(1).jpeg" alt="..." />
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Foto Kegiatan</a>
                             </div>
                         </div>
                     </div>

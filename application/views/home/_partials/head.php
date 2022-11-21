@@ -5,7 +5,7 @@
         <meta name="author" content="" />
         <title><?php echo SITE_NAME ." : ". ucfirst($this->uri->segment(1))?></title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="<?php echo base_url('favicon.ico')?>" />
+        <link rel="icon" type="image/x-icon" href="<?php echo base_url('template/Favicon.ico')?>" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
